@@ -1,6 +1,6 @@
 # Llamapod
 
-Drop easily your llm API on an OpenShift Cluster
+Drop easily your LLM API on an OpenShift Cluster
 
 ## Get Started
 
