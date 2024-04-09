@@ -4,9 +4,9 @@ WORKDIR /llamafile
 
 ENV TMPDIR=/tmp
 
-RUN curl -O -L https://huggingface.co/jartine/llava-v1.5-7B-GGUF/resolve/main/llava-v1.5-7b-q4.llamafile &&\
+RUN curl -O -L https://huggingface.co/jartine/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/TinyLlama-1.1B-Chat-v1.0.Q5_K_M.llamafile &&\
     chmod -R 775 /llamafile
 
 EXPOSE 8080
 
-CMD ./llava-v1.5-7b-q4.llamafile --host 0.0.0.0 --nobrowser
+CMD ./TinyLlama-1.1B-Chat-v1.0.Q5_K_M.llamafile --host 0.0.0.0 --nobrowser
