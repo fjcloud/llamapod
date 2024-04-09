@@ -30,4 +30,10 @@ Expected output
 }
 ```
 
+## Uninstall
+
+```shell
+oc delete all -l app=llamapod
+```
+
 That's all for the moment!
