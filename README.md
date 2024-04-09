@@ -2,7 +2,7 @@
 
 Drop easily your LLM API on an OpenShift Cluster
 
-## Get Started
+## Getting Started
 
 ```shell
 oc new-project llm-api
