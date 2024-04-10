@@ -23,10 +23,11 @@ Expected output
 ```shell
 {
   "tags": [
-    "business",
-    "marketing"
+    "technology",
+    "electricity",
+    "toasting"
   ],
-  "title": "An American restaurant chain has been accused of using fake waiters in its adverts, leading to a backlash from customers and the company itself"
+  "title": "Tesla Model 3: It's not just a car, but also the world's best electric toaster"
 }
 ```
 
