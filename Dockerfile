@@ -4,9 +4,9 @@ WORKDIR /llamafile
 
 ENV TMPDIR=/tmp
 
-RUN curl -O -L https://huggingface.co/jartine/rocket-3B-llamafile/resolve/main/rocket-3b.Q5_K_M.llamafile &&\
+RUN curl -O -L https://huggingface.co/jartine/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/TinyLlama-1.1B-Chat-v1.0.F16.llamafile &&\
     chmod -R 775 /llamafile
 
 EXPOSE 8080
 
-CMD ./rocket-3b.Q5_K_M.llamafile --host 0.0.0.0 --nobrowser
+CMD ./TinyLlama-1.1B-Chat-v1.0.F16.llamafile --host 0.0.0.0 --nobrowser
