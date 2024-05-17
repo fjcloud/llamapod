@@ -2,6 +2,8 @@ FROM registry.access.redhat.com/ubi9
 
 WORKDIR /llamafile
 
+COPY getty.txt /llamafile/getty.txt
+
 ENV TMPDIR=/tmp
 
 RUN curl -O -L https://huggingface.co/jartine/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/TinyLlama-1.1B-Chat-v1.0.F16.llamafile &&\
