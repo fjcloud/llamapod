@@ -1,4 +1,5 @@
-FROM registry.access.redhat.com/ubi9/ubi@sha256:1ee4d8c50d14d9c9e9229d9a039d793fcbc9aa803806d194c957a397cf1d2b17
+FROM registry.access.redhat.com/ubi9/ubi
+
 WORKDIR /llamafile
 
 COPY getty.txt /llamafile/getty.txt
